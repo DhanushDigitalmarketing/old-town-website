@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>OLD TOWN | Oversized T-Shirts & Streetwear India</title>
+  <meta name="description" content="Discover OLD TOWN oversized graphic T-shirts and premium streetwear. Explore urban-inspired styles made for everyday expression.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#171715">
+
+  <!-- Replace with your real website URL before publishing -->
+  <link rel="canonical" href="https://example.com/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="OLD TOWN | Streetwear Reimagined">
+  <meta property="og:description" content="Old streets. New stories. Discover oversized tees by OLD TOWN.">
+  <meta property="og:url" content="https://example.com/">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=1200&q=80">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Website structured data: update the URL to your real domain -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "OLD TOWN",
+    "url": "https://example.com/",
+    "description": "Oversized graphic T-shirts and urban streetwear."
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "OLD TOWN",
+    "url": "https://example.com/"
+  }
+  </script>
+</head>
+
+<body>
+  <div class="announcement">
+    OLD STREETS. NEW STORIES. — WELCOME TO OLD TOWN.
+  </div>
+
+  <header class="navbar">
+    <a class="logo" href="#home" aria-label="OLD TOWN homepage">OLD<span>TOWN.</span></a>
+
+    <nav aria-label="Main navigation">
+      <a href="#home">HOME</a>
+      <a href="#collection">SHOP</a>
+      <a href="#story">OUR STORY</a>
+    </nav>
+
+    <button class="cart-button" id="cartToggle" aria-label="View shopping cart">
+      BAG (<span id="cartCount">0</span>)
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">THE STREETS MADE US</p>
+        <h1>ROOTED IN<br>THE <span>OLD.</span></h1>
+        <p class="hero-text">
+          Streetwear with a story. Oversized fits, bold graphics,
+          and a new generation's take on old-town culture.
+        </p>
+        <a class="primary-button" href="#collection">SHOP THE COLLECTION ↗</a>
+        <p class="hero-note">EVERY STREET HAS A STORY.</p>
+      </div>
+
+      <div class="hero-image">
+        <img
+          src="https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&fit=crop&w=1100&q=85"
+          alt="Urban streetwear clothing collection inspired by city culture"
+          fetchpriority="high"
+        >
+        <div class="image-label">CHAPTER 001 / THE BEGINNING</div>
+      </div>
+      <div class="hero-stamp">OT<br>001</div>
+    </section>
+
+    <section class="ticker" aria-label="Brand slogan">
+      <span>OLD SOULS</span> ✳ <span>NEW MOVEMENT</span> ✳
+      <span>BUILT FOR THE STREETS</span> ✳ <span>OLD SOULS</span> ✳
+    </section>
+
+    <section class="collection section" id="collection">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">YOUR NEXT EVERYDAY UNIFORM</p>
+          <h2>THE FIRST <span>DROP.</span></h2>
+        </div>
+        <p class="section-description">
+          Easy fits. Strong character. Made for your everyday rotation.
+        </p>
+      </div>
+
+      <div class="filters" aria-label="Filter products">
+        <button class="filter active" data-filter="all">ALL PIECES</button>
+        <button class="filter" data-filter="graphic">GRAPHIC TEES</button>
+        <button class="filter" data-filter="minimal">MINIMAL TEES</button>
+      </div>
+
+      <div class="product-grid" id="productGrid">
+        <article class="product-card" data-category="graphic">
+          <div class="product-image">
+            <span class="product-tag">BESTSELLER STYLE</span>
+            <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=700&q=80"
+                 alt="White oversized T-shirt for streetwear styling" loading="lazy">
+            <button class="quick-add" data-id="1">ADD TO BAG +</button>
+          </div>
+          <div class="product-info">
+            <div><h3>Block Graphic Tee</h3><p>Oversized fit · White</p></div>
+            <span class="price">₹799</span>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="minimal">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1503341504253-dff4815485f1?auto=format&fit=crop&w=700&q=80"
+                 alt="Minimal casual T-shirt in an urban fashion collection" loading="lazy">
+            <button class="quick-add" data-id="2">ADD TO BAG +</button>
+          </div>
+          <div class="product-info">
+            <div><h3>Everyday Essential</h3><p>Relaxed fit · Neutral</p></div>
+            <span class="price">₹699</span>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="graphic">
+          <div class="product-image">
+            <span class="product-tag">NEW DROP</span>
+            <img src="https://images.unsplash.com/photo-1562157873-818bc0726f68?auto=format&fit=crop&w=700&q=80"
+                 alt="Graphic printed casual T-shirt inspired by modern streetwear" loading="lazy">
+            <button class="quick-add" data-id="3">ADD TO BAG +</button>
+          </div>
+          <div class="product-info">
+            <div><h3>After Hours Tee</h3><p>Oversized fit · Dark</p></div>
+            <span class="price">₹899</span>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="minimal">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1583743814966-8936f37f4c5b?auto=format&fit=crop&w=700&q=80"
+                 alt="Classic everyday T-shirt for a minimalist wardrobe" loading="lazy">
+            <button class="quick-add" data-id="4">ADD TO BAG +</button>
+          </div>
+          <div class="product-info">
+            <div><h3>Old Town Classic</h3><p>Regular fit · Black</p></div>
+            <span class="price">₹749</span>
+          </div>
+        </article>
+      </div>
+      <p class="demo-note">Demo products and prices — replace these with your actual products before launch.</p>
+    </section>
+
+    <section class="story section" id="story">
+      <div class="story-image">
+        <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1000&q=85"
+             alt="Contemporary urban fashion and streetwear editorial" loading="lazy">
+      </div>
+      <div class="story-copy">
+        <p class="eyebrow">NOT JUST ANOTHER TEE</p>
+        <h2>THE OLD HAS<br>A <span>NEW STORY.</span></h2>
+        <p>
+          OLD TOWN is inspired by the streets, the people, and the
+          culture that shape us. We bring those influences into
+          everyday streetwear, one drop at a time.
+        </p>
+        <a class="text-link" href="#collection">FIND YOUR FIT ↗</a>
+      </div>
+    </section>
+
+    <section class="newsletter section">
+      <p class="eyebrow">GET IN BEFORE THE NEXT DROP</p>
+      <h2>STAY IN THE <span>LOOP.</span></h2>
+      <p>New collections, upcoming drops, and OLD TOWN updates.</p>
+      <form id="newsletterForm">
+        <label class="visually-hidden" for="email">Email address</label>
+        <input type="email" id="email" placeholder="Enter your email address" required>
+        <button type="submit">COUNT ME IN ↗</button>
+      </form>
+      <p id="newsletterMessage" aria-live="polite"></p>
+      <small>Newsletter demo only. Connect a subscription service to collect emails.</small>
+    </section>
+  </main>
+
+  <aside class="cart-panel" id="cartPanel" aria-label="Shopping cart" hidden>
+    <div class="cart-heading">
+      <h2>YOUR BAG</h2>
+      <button id="cartClose" aria-label="Close shopping cart">✕</button>
+    </div>
+    <div id="cartItems"></div>
+    <p class="cart-total">Total: <strong id="cartTotal">₹0</strong></p>
+    <button id="checkoutButton" class="primary-button checkout-button">CHECKOUT</button>
+    <p class="demo-note">Demo cart only. No payment is processed.</p>
+  </aside>
+
+  <footer class="footer">
+    <a class="logo footer-logo" href="#home">OLD<span>TOWN.</span></a>
+    <p>OLD STREETS. NEW STORIES.</p>
+    <div class="footer-links">
+      <a href="#collection">Shop</a>
+      <a href="#story">Our Story</a>
+      <a href="mailto:hello@example.com">Contact</a>
+    </div>
+    <p class="copyright">© <span id="year"></span> OLD TOWN. ALL RIGHTS RESERVED.</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
